@@ -2,7 +2,7 @@ import Home from "./components/Home";
 import "./App.css";
 import React from "react";  
 import { Routes, Route } from "react-router";
-import Game from "./components/Game";
+/* import Game from "./components/Game"; */
 
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
     <div>
       
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/game" element={<Game /> }/>
+        <Route path="/home" element={<Home />}/>
+        {/* <Route path="/game" element={<Game /> }/> */}
       </Routes>
     </div>
   );
