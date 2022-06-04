@@ -1,16 +1,14 @@
-import Game from "./Game";
+import { useNavigate } from "react-router";
 
 const Home = () => {
-  let palDecodificada = [];
-  const palabra = "JAVASCRIPT";
+  const navigate = useNavigate();
 
-  for (let i = 0; i < palabra.length; i++) {
-    palDecodificada.push("_");
-  }
-
+    const handleSubmit = ()=>{
+        navigate("/game")
+    }
   return (
     <div>
-      <Game palabra={palabra} palDecodificada={palDecodificada} />
+      <button onClick={handleSubmit} >Jugar</button>
     </div>
   );
 };
