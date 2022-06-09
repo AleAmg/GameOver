@@ -1,10 +1,10 @@
-import Defeat0 from "./../assets/Defeat0.jpg";
-import Defeat1 from "./../assets/Defeat1.jpg";
-import Defeat2 from "./../assets/Defeat2.jpg";
-import Defeat3 from "./../assets/Defeat3.jpg";
-import Defeat4 from "./../assets/Defeat4.jpg";
-import Defeat5 from "./../assets/Defeat5.jpg";
-import Defeat6 from "./../assets/Defeat6.jpg";
+import Defeat0 from "./../assets/Defeat0.png";
+import Defeat1 from "./../assets/Defeat1.png";
+import Defeat2 from "./../assets/Defeat2.png";
+import Defeat3 from "./../assets/Defeat3.png";
+import Defeat4 from "./../assets/Defeat4.png";
+import Defeat5 from "./../assets/Defeat5.png";
+import Defeat6 from "./../assets/Defeat6.png";
 
 const FailMan = ({ fail }) => {
     
@@ -25,8 +25,8 @@ const FailMan = ({ fail }) => {
   }
 
   return (
-    <div>
-      <img src={img} alt="Defeat0"></img>
+    <div className="imageErr">
+      <img className="image" src={img} alt="Defeat0"></img>
     </div>
   );
 };

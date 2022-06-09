@@ -7,8 +7,10 @@ const Home = () => {
         navigate("/game")
     }
   return (
-    <div>
-      <button onClick={handleSubmit} >Jugar</button>
+    <div className="inicio conteiner">
+      <h1>GameOver</h1>
+      <h5>Hangman game</h5>
+      <button onClick={handleSubmit} >Play</button>
     </div>
   );
 };
