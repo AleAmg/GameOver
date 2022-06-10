@@ -87,14 +87,14 @@ const Game = ({ palabra, palCodificada }) => {
           >
             Main menu
           </button>
-          <button
+          {/* <button
             className="buttonEndGame"
             onClick={() => {
               window.location.reload();
             }}
           >
             Play again
-          </button>
+          </button> */}
         </>
       )}
     </div>
