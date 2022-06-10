@@ -53,7 +53,7 @@ const Game = ({ palabra, palCodificada }) => {
           <h2>{palabra}</h2>{" "}
         </>
       )}
-      {win.length === 0 && <h1>Winer</h1>}
+      {win.length === 0 && <h1>Winner</h1>}
       <h1>
         {palCodificada.map((pal, i) => {
           return <span key={i}>{pal} </span>;
